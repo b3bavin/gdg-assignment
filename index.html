@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDG Event</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>GDG Tech Conference 2025</h1>
+    <p>Date: October 15, 2025 | Venue: Online</p>
+    <button id="toggleSchedule">View Schedule</button>
+  </header>
+
+  <section id="schedule" class="hidden">
+    <h2>Event Schedule</h2>
+    <ul>
+      <li>10:00 AM - Opening Keynote</li>
+      <li>11:30 AM - AI & ML Workshop</li>
+      <li>2:00 PM - Cloud Computing Panel</li>
+      <li>4:00 PM - Networking & Closing</li>
+    </ul>
+  </section>
+
+  <section id="register">
+    <h2>Register Now</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="dept">Department:</label>
+      <select id="dept">
+        <option>Computer Science</option>
+        <option>Electronics</option>
+        <option>Mechanical</option>
+        <option>Civil</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 GDG Community | Built for Assignment</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
